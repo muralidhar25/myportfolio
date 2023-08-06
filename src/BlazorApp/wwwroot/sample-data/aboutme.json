@@ -1,12 +1,21 @@
 {
-  "description": "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.",
+  "description": "Highly skilled and motivated Team Lead and Full Stack .NET Angular Developer with extensive project management experience. Demonstrated ability to lead cross-functional teams, deliver high-quality software solutions, and ensure project success. Seeking challenging opportunities to leverage my technical expertise and leadership skills to drive innovation and deliver exceptional results.",
   "skills": [
-    "Web design",
-    "User experience",
-    "Inclusive design",
-    "Focus group testing",
-    "Mobile user interfaces",
-    "Graphic design"
+    "Web Development",
+    "Project Management",
+    "Team Lead"
   ],
-  "detailOrQuote": "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all."
+  "detailOrQuote": [
+    "Led a team of developers and coordinated project activities for multiple .NET Angular projects, ensuring adherence to project timelines and quality standards.",
+    "Collaborated with stakeholders, including business analysts and product owners, to define project requirements and scope.",
+    "Oversaw project planning, resource allocation, risk management, and budget control to ensure successful project delivery.",
+    "Conducted regular project status meetings, provided updates to senior management, and addressed any project-related issues proactively.",
+    "Mentored and coached team members to enhance their technical skills and foster a culture of continuous improvement.",
+    "Designed and developed responsive web applications using ASP.NET, C#, Angular, and other related technologies.",
+    "Implemented RESTful APIs to integrate various modules and enhance application functionality.",
+    "Conducted code reviews, implemented best practices, and ensured the adherence to coding standards.",
+    "Actively participated in Agile development methodologies, including Scrum ceremonies and sprint planning.",
+    "Developed and maintained software applications using .NET, C#, and SQL Server.",
+    "Contributed to the design and architecture of new software components."
+  ]
 }

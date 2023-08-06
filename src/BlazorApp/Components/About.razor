@@ -20,7 +20,13 @@
         }
         </ul>
         <hr />
-        <p style="padding: 1rem 3rem 0;">@aboutMe.DetailOrQuote</p>
+        @* <p style="padding: 1rem 3rem 0;">@aboutMe.DetailOrQuote</p> *@
+        <ul style="text-align: left; columns: 2; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
+        @foreach (var skill in aboutMe.DetailOrQuote)
+        {
+            <li key="@skill">@skill</li>
+        }
+        </ul>
     }
     </div>
 </section>
