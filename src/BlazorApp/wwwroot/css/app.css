@@ -235,3 +235,35 @@ img.social-icon {
     .loading-progress-text:after {
         content: var(--blazor-load-percentage-text, "Loading");
     }
+  /* Card container style */
+  .card-container {
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width to fit your layout */
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Card list style */
+.card-list {
+    text-align: left;
+    font-size: 1.25rem;
+    margin: 2rem 3rem;
+    gap: 3rem;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Card list item style */
+.card-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Remove border for the last list item */
+.card-list li:last-child {
+    border-bottom: none;
+}
