@@ -245,13 +245,14 @@ img.social-icon {
     border-radius: 8px;
     padding: 1rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
 }
 
 /* Card list style */
 .card-list {
     text-align: left;
-    font-size: 1.25rem;
-    margin: 2rem 3rem;
+    font-size: 1rem;
+    margin: 1rem 2rem;
     gap: 3rem;
     padding: 0;
     list-style-type: none;
