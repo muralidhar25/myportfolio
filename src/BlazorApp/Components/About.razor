@@ -13,7 +13,13 @@
     {
         <p class="large">@aboutMe.Description</p>
         <hr />
-       
+        <h4 style="text-align: center"> Technical Skills</h4>
+        <ul style="text-align: left; columns: 3; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
+        @foreach (var skill in aboutMe.Skills)
+        {
+            <li key="@skill">@skill</li>
+        }
+        </ul>
         <ul style="columns:2">
             @foreach (var detailOrQuote in aboutMe.DetailOrQuote)
             {
@@ -23,13 +29,6 @@
                     </div>
                 </div>
             }
-        </ul>
-        <h4 style="text-align: center"> Technical Skills</h4>
-        <ul style="text-align: left; columns: 3; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
-        @foreach (var skill in aboutMe.Skills)
-        {
-            <li key="@skill">@skill</li>
-        }
         </ul>
     }
     </div>
