@@ -3,4 +3,17 @@
     <a href="#about" target="_top">About</a>
     <a href="#portfolio" target="_top">Portfolio</a>
     <a href="#contact" target="_top">Contact</a>
+    <div>
+     <a class="btn btn-default" style="float:right" href="@(resume.ResumePath)" title="Download Resume" download>Download Resume</a>
+    </div>
 </div>
+@code{
+     [Parameter, EditorRequired]
+    public required HttpClient Http { get; set; }
+
+    private Resume? resume;
+    protected override async Task OnInitializedAsync()
+    {
+        resume = await Http.GetFromJsonAsync<Resume>("sample-data/resume.json");
+    }
+}
