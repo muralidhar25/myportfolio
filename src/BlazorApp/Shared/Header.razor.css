@@ -27,7 +27,6 @@
   -ms-user-select: none;
   user-select: none;
   background-image: none;
-  border: 1px solid transparent;
 }
 .btn:focus,
 .btn:active:focus {
