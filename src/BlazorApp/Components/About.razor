@@ -13,14 +13,15 @@
     {
         <p class="large">@aboutMe.Description</p>
         <hr />
-       <div class="card-container">
-        <ul class="card-list">
+       
+        <ul class="card-container">
             @foreach (var detailOrQuote in aboutMe.DetailOrQuote)
             {
-                <li key="@detailOrQuote">@detailOrQuote</li>
+                <div class="card-list">
+                        <li key="@detailOrQuote">@detailOrQuote</li>
+                </div>
             }
         </ul>
-    </div>
         <h4 style="text-align: center"> Technical Skills</h4>
         <ul style="text-align: left; columns: 2; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
         @foreach (var skill in aboutMe.Skills)
