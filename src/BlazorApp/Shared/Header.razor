@@ -3,10 +3,10 @@
     <a href="#about" target="_top">About</a>
     <a href="#portfolio" target="_top">Portfolio</a>
     <a href="#contact" target="_top">Contact</a>
-    <div >
-     <a class="btn btn-default" style="float:right" href="@(resume.ResumePath)" title="Download Resume" download>Download Resume</a>
-    </div>
 </div>
+    <div id="headerResume">
+     <a style="float:right" href="@(resume.ResumePath)" title="Download Resume" download>Download Resume</a>
+    </div>
 @code{
      [Parameter, EditorRequired]
     public required HttpClient Http { get; set; }
