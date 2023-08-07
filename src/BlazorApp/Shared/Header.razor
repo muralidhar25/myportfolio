@@ -1,14 +1,15 @@
-<div id="header">
+<div class="header-container">
+<div id="header" >
     <a href="#home" target="_top">Home</a>
     <a href="#about" target="_top">About</a>
     <a href="#portfolio" target="_top">Portfolio</a>
-    <a href="#contact" target="_top">Contact</a>
+    <a href="#contact" target="_top">Contact</a>   
 </div>
-    <div id="headerResume">
-    <img src="images/download_icon.png" />
-     <a style="float:right" href="@(resume.ResumePath)" title="Download Resume" download>
-        <span>Download Resume</span></a>
-    </div>
+<div class="dw-action"> <a href="@(resume.ResumePath)" title="Download Resume" class="resume" download>
+        <img src="images/download_icon.png" />
+        <span>Download Resume</span>
+    </a></div>
+</div>
 @code{
      [Parameter, EditorRequired]
     public required HttpClient Http { get; set; }
