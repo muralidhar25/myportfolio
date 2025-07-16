@@ -1,26 +1,36 @@
 {
-  "description": "Highly skilled and motivated Team Lead and Full Stack .NET Angular Developer with extensive project management experience. Demonstrated ability to lead cross-functional teams, deliver high-quality software solutions, and ensure project success. Seeking challenging opportunities to leverage my technical expertise and leadership skills to drive innovation and deliver exceptional results.",
+  "description": "Highly accomplished Team Lead and Full Stack .NET Angular Developer with 7+ years of experience in building and delivering scalable enterprise applications. Proven track record of leading cross-functional teams, architecting cloud-integrated solutions, and driving successful project deliveries across diverse domains including Healthcare, Fintech, Logistics, and HR Management. Adept at leveraging modern frameworks like .NET Core, Angular 18, Azure, and AWS to deliver innovative, secure, and performance-driven applications.",
+
   "skills": [
-    "Asp.Net Core",
-    "Asp.Net MVC",
-    "Angular 6+ ",
-    "Azure",
-    "AWS",
-    "Git",
+    "ASP.NET Core",
+    "ASP.NET MVC",
+    "Angular 18",
+    "Azure (Functions, B2C, Blob, CI/CD)",
+    "AWS (Elastic Search, Deployment)",
+    "Git & GitHub",
     "Docker",
-    "Blazor"
+    "Blazor WebAssembly",
+    "SQL Server 2019",
+    "MongoDB",
+    "Microservices Architecture",
+    "JWT Authentication",
+    "RESTful API Design",
+    "Dapper",
+    "CI/CD Pipelines",
+    "Agile & Scrum Methodology"
   ],
+
   "detailOrQuote": [
-    "Led a team of developers and coordinated project activities for multiple .NET Angular projects, ensuring adherence to project timelines and quality standards.",
-    "Collaborated with stakeholders, including business analysts and product owners, to define project requirements and scope.",
-    "Oversaw project planning, resource allocation, risk management, and budget control to ensure successful project delivery.",
-    "Conducted regular project status meetings, provided updates to senior management, and addressed any project-related issues proactively.",
-    "Mentored and coached team members to enhance their technical skills and foster a culture of continuous improvement.",
-    "Designed and developed responsive web applications using ASP.NET, C#, Angular, and other related technologies.",
-    "Implemented RESTful APIs to integrate various modules and enhance application functionality.",
-    "Conducted code reviews, implemented best practices, and ensured the adherence to coding standards.",
-    "Actively participated in Agile development methodologies, including Scrum ceremonies and sprint planning.",
-    "Developed and maintained software applications using .NET, C#, and SQL Server.",
-    "Contributed to the design and architecture of new software components."
+    "Led full-stack teams across multiple .NET Core and Angular projects, ensuring timely delivery and adherence to high coding standards.",
+    "Collaborated directly with clients, business analysts, and product owners to gather requirements and define project scope and architecture.",
+    "Owned project planning, sprint management, and technical decision-making while mentoring junior developers and ensuring best practices.",
+    "Implemented reusable architecture components for cloud-based applications using .NET Core, RESTful APIs, and Angular.",
+    "Developed secure and scalable backend systems using Azure Functions, Azure B2C, Blob Storage, and JWT Authentication.",
+    "Built responsive frontends using Angular (v6 to v18), HTML5, CSS3, and integrated them with .NET Web APIs.",
+    "Worked on Azure and AWS cloud environments for deployment, CI/CD, and infrastructure scaling using Docker.",
+    "Delivered high-performance SaaS applications in domains such as healthcare (Medcompass), logistics (Coll-8), fintech, and e-commerce.",
+    "Contributed to product design, architecture planning, sprint reviews, and daily standups as part of Agile teams.",
+    "Built WebAssembly-based apps using Blazor and modernized legacy systems with modular .NET and Angular codebases.",
+    "Integrated third-party APIs such as Google Maps, PayPal, Stripe, and implemented secure login systems using Azure B2C."
   ]
 }
